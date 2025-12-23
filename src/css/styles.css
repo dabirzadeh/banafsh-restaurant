@@ -1,0 +1,18 @@
+body {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+}
+
+.site-header__container {
+  display: flex;
+
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background: url("../assets/images/banners/banner.png") center / cover
+    no-repeat;
+}
